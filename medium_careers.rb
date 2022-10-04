@@ -31,8 +31,6 @@ class MediumCareersScraper
         positions["#{team.to_s}"] << position
       end
     end
-
-    # puts positions
   end
 
   def print_report
